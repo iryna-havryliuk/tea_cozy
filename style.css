@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-color: black;
+    color:seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.9;
+}
+
+header {
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    
+}
+
+header img {
+    height: 50px;
+    margin: 0.5%;
+}
+
+nav {
+    float: right;
+    display: flex;
+    width: 500px;
+    height: 69px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    color: white;
+}
+
+#mission {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.missionContainer {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.missionContainer h4, .missionContainer h2 {
+    margin: 15px auto;
+}
+
+#featuredTea {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#featuredTea .title {
+    text-align: center;
+    padding-top: 15%;
+}
+
+.images {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.figure img {
+    width: 300px;
+    height: 200px;
+}
+
+.figure h4 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.locationsContainer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#locations h2 {
+    display: flex;
+    justify-content: center;
+      
+}
+
+.location {
+   background-color: black;
+   width: 300px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   
+}
+
+#contact {
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
+
